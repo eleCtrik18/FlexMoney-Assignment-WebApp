@@ -1,0 +1,60 @@
+:focus {
+    outline: none;
+}
+
+
+
+
+.formContainer {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin: auto;
+    position: relative;
+    top: 7vh;
+    align-items: center;
+}
+
+.formContainer>input {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.formContainer>input:focus {
+    border-bottom: 2px solid #3399ff;
+}
+
+.formContainer .batchTiming .batchOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer .batchTiming .batchOptions div {
+    display: flex;
+    flex-direction: row;
+}
+
+.formContainer .batchTiming .batchOptions div>* {
+    margin: 0px 5px;
+}
+
+.formContainer .toPayment {
+    /* border: 1px solid black; */
+    border: 1px solid #e9ecef;
+    padding: .9em 1em;
+    background-color: #003049;
+    color: #e9ecef;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.formContainer .toPayment:hover {
+    color: white;
+    background-color: black;
+}

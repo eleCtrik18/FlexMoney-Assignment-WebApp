@@ -1,0 +1,14 @@
+.yogaHeader {
+    text-align: center;
+    width: 100%;
+    font-size: 4vw;
+    color: #010101
+}
+
+@media screen and (max-width:800px) {
+    .yogaHeader {
+        position: absolute;
+        top: 5vh;
+        font-size: 9vw;
+    }
+}
